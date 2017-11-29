@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>D3: Channelling Hans</title>
+
+		<!-- JS files -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/d3.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/script.js" charset="utf-8"></script>
+
+		<!-- css files -->
+		<link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/bootstrap-grid.css" rel="stylesheet" />
+		<link href="css/bootstrap-reboot.css" rel="stylesheet" />
+		<link href="css/style.css" rel="stylesheet" />
+		
+	</head>
+
+	<body>
+	<!-- <h2>hello</h2> -->
+	<div class = "demo">
+		<h3 id = "year_header"></h3>
+	</div>
+	<div id = "mainCanvas">
+	<div id = "mainCanvasText">
+		<text id = "yearText"></text>
+	</div>
+	</div>
+	<div id = "rightCanvasOne">
+	
+	</div>
+	<div id = "rightCanvasTwo">
+	
+	</div>
+	<div id = "yAxisText"><text id = "">Life Expectency</text></div>
+	<div id = "xAxisText"><text id = "">Income per Capita</text></div>
+	<div id = "yAxisText1"><text id = "">Region</text></div>
+	<div id = "xAxisText1"><text id = "">Number of Countries</text></div>
+	<div id = "yAxisText2"><text id = "">Type of Government</text></div>
+	<div id = "xAxisText2"><text id = "">Number of Countries</text></div>
+	<div id = "textInput">
+		<input id = "textYear" class="form-control" type="text" placeholder="Enter Year"></input>
+		<button id = "showData" type="button" class="btn btn-primary">Show</button>
+		<!-- <button id = "showData"> Show </button> -->
+		<!-- <button id = "showData"> Show </button> -->
+	</div>
+	<div id = "buttonDiv">
+		<button id = "playPause" type="button" class="btn btn-success">Play</button>
+	</div>
+	<div id = "colorButtonDiv">
+		<button id = "colorChange" type="button" class="btn btn-info">Colorblind Friendly</button>
+	</div>
+	<div id = "dropCountry"><text>Select Country</text>
+		<select id = "countryDrop">
+		<option value = "All">All</option>
+		</select>
+		<button id = "clearButton" type="button" class="btn btn-success">Clear</button>
+	</div>
+	</body>
+</html>
